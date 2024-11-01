@@ -9,10 +9,13 @@ REM Wait a few seconds to ensure the API is up and running
 timeout /t 5 /nobreak > nul
 
 REM Navigate to the ProvideFeedbackSample folder
-cd ..\ProvideFeedbackSample
+cd ..\ConsumingDomain
 
 REM Run the console application
 dotnet run
 
 REM Optional: Kill the API process once the console app completes
 taskkill /F /IM dotnet.exe
+
+REM Back to root folder
+cd ..

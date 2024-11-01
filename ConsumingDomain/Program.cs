@@ -31,3 +31,5 @@ foreach (var tr in trainingRecords)
     Console.WriteLine($"\n** Learner name: {tr.Name} on standard: {tr.StdCode} is on training type: {tr.TrainingType}");
     Console.WriteLine($"\tAsk for essential quals?: {recruitConfig!.AskForEssentialQuals}, Min months in training: {recruitConfig!.MinLearningDurationMonths}");
 }
+
+Console.WriteLine("\n Completed \n");
