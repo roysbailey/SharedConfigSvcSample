@@ -1,0 +1,25 @@
+@TrainingTypeConfigAPI_HostAddress = http://localhost:5291
+
+### ProvideFeedback RegularApps
+GET {{TrainingTypeConfigAPI_HostAddress}}/trainingtypeconfig/ProvideFeedback/RegularApps
+Accept: application/json
+
+### ProvideFeedback ShorterApps
+GET {{TrainingTypeConfigAPI_HostAddress}}/trainingtypeconfig/ProvideFeedback/ShorterApps
+Accept: application/json
+
+### ProvideFeedback FoundationApps
+GET {{TrainingTypeConfigAPI_HostAddress}}/trainingtypeconfig/ProvideFeedback/FoundationApps
+Accept: application/json
+
+### Recruit RegularApps
+GET {{TrainingTypeConfigAPI_HostAddress}}/trainingtypeconfig/Recruit/RegularApps
+Accept: application/json
+
+### Recruit ShorterApps
+GET {{TrainingTypeConfigAPI_HostAddress}}/trainingtypeconfig/Recruit/ShorterApps
+Accept: application/json
+
+### Recruit FoundationApps
+GET {{TrainingTypeConfigAPI_HostAddress}}/trainingtypeconfig/Recruit/FoundationApps
+Accept: application/json

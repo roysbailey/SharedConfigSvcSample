@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="3IpseJohJuV0wT4wYZS4">
+    <mxGraphModel dx="1247" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hO1TwCxC6JFw-eIda27n-15" value="Shared Config Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="560" y="410" width="410" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-14" value="Consuming Domain Process Space" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="410" width="410" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hO1TwCxC6JFw-eIda27n-1" target="hO1TwCxC6JFw-eIda27n-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-1" value="Training Type Client" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="505" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-2" value="Consuming Domain" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-3" value="Training Type Shared Models" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="610" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.51;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hO1TwCxC6JFw-eIda27n-1" target="hO1TwCxC6JFw-eIda27n-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="670" as="sourcePoint" />
+            <mxPoint x="390" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.17;entryY=0.53;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hO1TwCxC6JFw-eIda27n-2" target="hO1TwCxC6JFw-eIda27n-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="430" y="565" as="sourcePoint" />
+            <mxPoint x="431" y="624" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-7" value="Training Type Config API" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-9" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.files" vertex="1" parent="1">
+          <mxGeometry x="810" y="481.5" width="100" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hO1TwCxC6JFw-eIda27n-7" target="hO1TwCxC6JFw-eIda27n-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hO1TwCxC6JFw-eIda27n-13" value="&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Configuration Settings&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="810" y="565" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
